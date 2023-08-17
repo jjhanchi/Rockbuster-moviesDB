@@ -29,14 +29,14 @@ top10_cities AS (
 	LIMIT 10
 	),
 customer_address_amount AS ( 
-	--list of customer + address + total paid by customer
+	-- list of customer + address + total paid by customer
 	SELECT customer_id, address_id, city_id, SUM(amount)	AS total_amount
 	FROM customer
 	INNER JOIN payment USING(customer_id)
 	INNER JOIN address USING(address_id)
 	GROUP BY customer_id, address_id
 	)
-SELECT	ROUND(AVG(total_amount),2)      -- average of top5_payers
+SELECT	ROUND(AVG(total_amount),2)      -- average from top5_payers
 	
 FROM	(SELECT city_id, total_amount
 		 FROM customer_address_amount
