@@ -3,5 +3,4 @@
 * one
 * two
 * three
-
-[Rockbuster findings - Tableau Visualization](https://public.tableau.com/app/profile/jose.hanchi/viz/RockbusterDBSQLAnalysis/RockbusterDB)
+* [Rockbuster findings - Tableau Visualization](https://public.tableau.com/app/profile/jose.hanchi/viz/RockbusterDBSQLAnalysis/RockbusterDB)
