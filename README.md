@@ -5,7 +5,5 @@
 * three
 
 Visualization of findings
-[Rockbuster findings - Tableau]
-(https://public.tableau.com/app/profile/jose.hanchi/viz/RockbusterDBSQLAnalysis/RockbusterDB)
-{:target="_blank" rel="noopener"}
+[Rockbuster findings - Tableau Visualization]https://public.tableau.com/app/profile/jose.hanchi/viz/RockbusterDBSQLAnalysis/RockbusterDB){:target="_blank" rel="noopener"}
 
