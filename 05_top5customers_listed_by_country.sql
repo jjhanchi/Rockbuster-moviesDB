@@ -1,8 +1,8 @@
 -- Find out how many of the top 5 customers are based within each country.
 -- Your final output should include 3 columns:
---  “country”
--- “all_customer_count” with the total number of customers in each country
--- “top_customer_count” showing how many of the top 5 customers live in each country
+--  __country__
+-- __all_customer_count__ with the total number of customers in each country
+-- __top_customer_count__ showing how many of the top 5 customers live in each country
 --
 -- NOTE: the approach taken is to create 2 tables (LEFT & RIGHT) to perform a JOIN of those intermediate results
 -- 
