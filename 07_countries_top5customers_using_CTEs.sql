@@ -1,6 +1,6 @@
 -- find the countries where top5 customers live in
 -- this is a rewrite of query # 5 using Common Table Expressions (CTEs)
---
+-- 
 WITH city_country AS (
 	SELECT country_id, city_id, country AS country_name, city AS city_name
 	FROM city INNER JOIN country
