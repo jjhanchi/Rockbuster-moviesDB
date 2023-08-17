@@ -5,5 +5,5 @@
 * three
 
 Visualization of findings
-<a href="https://public.tableau.com/app/profile/jose.hanchi/viz/RockbusterDBSQLAnalysis/RockbusterDB" target="blank">
-Rockbuster findings - Tableau</a>
+[Rockbuster findings - Tableau](https://public.tableau.com/app/profile/jose.hanchi/viz/RockbusterDBSQLAnalysis/RockbusterDB){:target="_blank"}
+
