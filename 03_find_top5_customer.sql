@@ -1,6 +1,6 @@
 -- find the top 5 customers in the top 10 cities who have paid the highest total amounts to Rockbuster
 -- The customer team would like to reward them for their loyalty
--- 
+--  
 SELECT	cust.customer_id, cust.first_name, cust.last_name,
 	ctry.country, city.city,
 	SUM(pmt.amount) AS total_amount_paid
